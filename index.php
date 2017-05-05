@@ -24,7 +24,7 @@ get_header(); ?>
 
 <div class="container py-4">
 	
-
+		
 		<?php
 		if ( have_posts() ) :
 
