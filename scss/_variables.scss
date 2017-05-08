@@ -102,6 +102,10 @@ $blue:   #0275d8 !default;
 $teal:   #5bc0de !default;
 $pink:   #ff5b77 !default;
 $purple: #613d7c !default;
+$cream:  #f8fae2 !default;
+$sea:   #c7efdf !default;
+$lightsea: #d7ffee !default;
+$burgundy: #7e2400 !default;
 
 // Create grayscale
 $gray-dark:                 #292b2c !default;
@@ -711,10 +715,10 @@ $card-spacer-x:            1.25rem !default;
 $card-spacer-y:            .75rem !default;
 $card-border-width:        1px !default;
 $card-border-radius:       $border-radius !default;
-$card-border-color:        rgba($black,.125) !default;
+$card-border-color:        rgba($cream,.125) !default;
 $card-border-radius-inner: calc(#{$card-border-radius} - #{$card-border-width}) !default;
-$card-cap-bg:              $gray-lightest !default;
-$card-bg:                  $white !default;
+$card-cap-bg:              $sea !default;
+$card-bg:                  $lightsea !default;
 
 $card-link-hover-color:    $white !default;
 

@@ -4659,8 +4659,8 @@ tbody.collapse.show {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #d7ffee;
+  border: 1px solid rgba(248, 250, 226, 0.125);
   border-radius: 0.25rem;
 }
 
@@ -4708,8 +4708,8 @@ tbody.collapse.show {
 .card-header, .widget_calendar caption {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #f7f7f9;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #c7efdf;
+  border-bottom: 1px solid rgba(248, 250, 226, 0.125);
 }
 .card-header:first-child, .widget_calendar caption:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -4717,8 +4717,8 @@ tbody.collapse.show {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #f7f7f9;
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #c7efdf;
+  border-top: 1px solid rgba(248, 250, 226, 0.125);
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);

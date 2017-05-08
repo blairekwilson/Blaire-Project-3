@@ -25,6 +25,11 @@
 			  flex: 1;
 			}
 		</style>
+
+
+			<!-- PASTE YOUR GOOGLE FONTS CODE HERE -->
+			<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class('site sticky-footer'); ?>>
