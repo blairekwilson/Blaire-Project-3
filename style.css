@@ -9593,7 +9593,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .bg-image {
-  background: url("http://wywb.blog/wp-content/uploads/2017/05/speckles-01.jpg") top center;
+  background: url("http://wywb.blog/wp-content/uploads/2017/05/speckles-01.jpg") top center repeat;
 }
 
 .widget_archive ul,

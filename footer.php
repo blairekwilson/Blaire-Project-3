@@ -17,8 +17,8 @@
 </div> <?php /* End .site-content */; ?>
 <footer class="bg-faded">
 	<div class="container text-center p-4">
-    <p><?php bloginfo( 'name' ); ?></p>
-		<p>Copyright &copy; <?php echo date("Y"); ?></p>
+    <!-- <p><?php bloginfo( 'name' ); ?></p> -->
+		<p>Wish You Were Beer&copy; <?php echo date("Y"); ?></p>
 	</div>
 </footer>
 <?php wp_footer(); ?>
