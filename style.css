@@ -25,7 +25,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -9590,6 +9590,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important;
   }
+}
+
+.bg-image {
+  background: url("http://wywb.blog/wp-content/uploads/2017/05/speckles-01.jpg") top center;
 }
 
 .widget_archive ul,
