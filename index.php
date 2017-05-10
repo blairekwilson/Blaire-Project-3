@@ -22,7 +22,7 @@
 
 get_header(); ?>
 
-<div class="container py-4 bg-image">
+<div class="container py-4">
 	
 		
 		<?php

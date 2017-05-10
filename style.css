@@ -25,7 +25,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -361,7 +361,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -422,11 +422,11 @@ blockquote {
 }
 
 a {
-  color: #0275d8;
+  color: #7e2400;
   text-decoration: none;
 }
 a:focus, a:hover {
-  color: #014c8c;
+  color: #320e00;
   text-decoration: underline;
 }
 
@@ -2663,27 +2663,27 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #0275d8;
-  border-color: #0275d8;
+  color: #7e2400;
+  background-color: #b1d7ca;
+  border-color: #b1d7ca;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #025aa5;
-  border-color: #01549b;
+  color: #7e2400;
+  background-color: #8fc6b3;
+  border-color: #89c2af;
 }
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+  box-shadow: 0 0 0 2px rgba(177, 215, 202, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
-  background-color: #0275d8;
-  border-color: #0275d8;
+  background-color: #b1d7ca;
+  border-color: #b1d7ca;
 }
 .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #025aa5;
+  color: #7e2400;
+  background-color: #8fc6b3;
   background-image: none;
-  border-color: #01549b;
+  border-color: #89c2af;
 }
 
 .btn-secondary {
@@ -2807,27 +2807,27 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-primary {
-  color: #0275d8;
+  color: #b1d7ca;
   background-image: none;
   background-color: transparent;
-  border-color: #0275d8;
+  border-color: #b1d7ca;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0275d8;
-  border-color: #0275d8;
+  background-color: #b1d7ca;
+  border-color: #b1d7ca;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+  box-shadow: 0 0 0 2px rgba(177, 215, 202, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #0275d8;
+  color: #b1d7ca;
   background-color: transparent;
 }
 .btn-outline-primary:active, .btn-outline-primary.active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0275d8;
-  border-color: #0275d8;
+  background-color: #b1d7ca;
+  border-color: #b1d7ca;
 }
 
 .btn-outline-secondary {
@@ -2952,7 +2952,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: normal;
-  color: #0275d8;
+  color: #7e2400;
   border-radius: 0;
 }
 .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
@@ -2965,7 +2965,7 @@ fieldset[disabled] a.btn {
   border-color: transparent;
 }
 .btn-link:focus, .btn-link:hover {
-  color: #014c8c;
+  color: #320e00;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4783,7 +4783,7 @@ tbody.collapse.show {
 
 .card-outline-primary {
   background-color: transparent;
-  border-color: #0275d8;
+  border-color: #b1d7ca;
 }
 
 .card-outline-secondary {
@@ -5023,14 +5023,14 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0275d8;
+  color: #7e2400;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 .page-link:focus, .pagination a[rel="prev"]:focus,
 .pagination a[rel="next"]:focus, .navigation.pagination .nav-links .page-numbers:focus, .page-link:hover, .pagination a[rel="prev"]:hover,
 .pagination a[rel="next"]:hover, .navigation.pagination .nav-links .page-numbers:hover {
-  color: #014c8c;
+  color: #320e00;
   text-decoration: none;
   background-color: #eceeef;
   border-color: #ddd;
@@ -5679,7 +5679,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5773,7 +5773,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -9593,7 +9593,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .bg-image {
-  background: url("http://wywb.blog/wp-content/uploads/2017/05/speckles-01.jpg") top center repeat;
+  background: url("http://wywb.blog/wp-content/uploads/2017/05/speckles-01.jpg") top center;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .widget_archive ul,

@@ -17,7 +17,7 @@
 	</div>
 <?php endif; ?>
 
-<div class="container py-4">
+<div class="container py-4 bg-faded">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header>
 			<?php the_title( '<h1 class="display-4">', '</h1>' ); ?>
